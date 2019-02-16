@@ -21,6 +21,6 @@ public class Dollar implements Money {
     }
 
     public String getCoinName() {
-        return "Dollar";
+        return "$";
     }
 }

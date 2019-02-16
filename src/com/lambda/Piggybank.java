@@ -11,8 +11,8 @@ public class Piggybank {
     }
 
     public void add (Money total) {
-        double totalToAdd = total.getTotal();
-        amount += totalToAdd;
+        this.amount += total.getTotal();
+        this.bank.add(total);
     }
 
     public void printContent () {
